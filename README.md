@@ -1,9 +1,13 @@
 ﻿# TASTickrateChanger
 Original by [Guichaguri](https://github.com/Guichaguri/TickrateChanger)  
 Let's you change the server/client tickrate    
-Fixed issues and hooked up things that didn't get affected by the tickrate  
-Changed ASM method from coremod to [Mixin](https://github.com/SpongePowered/Mixin)  
-Added tickrate 0, original code by [CubiTect](https://github.com/Cubitect/Cubitick)  
+Fixed issues and hooked up things that didn't get affected by the tickrate:  
+ - Enchanting Glimmer Animation  
+ - Achievement/Recipe/System Message (also called Toasts) Animation
+ - Fade out of Subtitles
+ - Scroll wheel works in tickrates below 5  
+ 
+Changed ASM method from coremod to [Mixin](https://github.com/SpongePowered/Mixin)
   
 Original links to the mod:  
 * [Downloads](http://guichaguri.github.io/TickrateChanger/)
